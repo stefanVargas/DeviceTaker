@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713022C920E18A7500C45E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022C820E18A7500C45E64 /* AppDelegate.swift */; };
+		713022CB20E18A7500C45E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022CA20E18A7500C45E64 /* ViewController.swift */; };
+		713022CE20E18A7500C45E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713022CC20E18A7500C45E64 /* Main.storyboard */; };
+		713022D120E18A7500C45E64 /* DeviceTaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713022CF20E18A7500C45E64 /* DeviceTaker.xcdatamodeld */; };
+		713022D320E18A7700C45E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713022D220E18A7700C45E64 /* Assets.xcassets */; };
+		713022D620E18A7700C45E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713022D420E18A7700C45E64 /* LaunchScreen.storyboard */; };
+		713022E120E18A7700C45E64 /* DeviceTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022E020E18A7700C45E64 /* DeviceTakerTests.swift */; };
+		713022EC20E18A7700C45E64 /* DeviceTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022EB20E18A7700C45E64 /* DeviceTakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		713022DD20E18A7700C45E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713022BD20E18A7500C45E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713022C420E18A7500C45E64;
+			remoteInfo = DeviceTaker;
+		};
+		713022E820E18A7700C45E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713022BD20E18A7500C45E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713022C420E18A7500C45E64;
+			remoteInfo = DeviceTaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		713022C520E18A7500C45E64 /* DeviceTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713022C820E18A7500C45E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		713022CA20E18A7500C45E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		713022CD20E18A7500C45E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713022D020E18A7500C45E64 /* DeviceTaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeviceTaker.xcdatamodel; sourceTree = "<group>"; };
+		713022D220E18A7700C45E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713022D520E18A7700C45E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		713022D720E18A7700C45E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713022DC20E18A7700C45E64 /* DeviceTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713022E020E18A7700C45E64 /* DeviceTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTakerTests.swift; sourceTree = "<group>"; };
+		713022E220E18A7700C45E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713022E720E18A7700C45E64 /* DeviceTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		713022EB20E18A7700C45E64 /* DeviceTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTakerUITests.swift; sourceTree = "<group>"; };
+		713022ED20E18A7700C45E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713022C220E18A7500C45E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713022D920E18A7700C45E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713022E420E18A7700C45E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713022BC20E18A7500C45E64 = {
+			isa = PBXGroup;
+			children = (
+				713022C720E18A7500C45E64 /* DeviceTaker */,
+				713022DF20E18A7700C45E64 /* DeviceTakerTests */,
+				713022EA20E18A7700C45E64 /* DeviceTakerUITests */,
+				713022C620E18A7500C45E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713022C620E18A7500C45E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713022C520E18A7500C45E64 /* DeviceTaker.app */,
+				713022DC20E18A7700C45E64 /* DeviceTakerTests.xctest */,
+				713022E720E18A7700C45E64 /* DeviceTakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713022C720E18A7500C45E64 /* DeviceTaker */ = {
+			isa = PBXGroup;
+			children = (
+				713022C820E18A7500C45E64 /* AppDelegate.swift */,
+				713022CA20E18A7500C45E64 /* ViewController.swift */,
+				713022CC20E18A7500C45E64 /* Main.storyboard */,
+				713022D220E18A7700C45E64 /* Assets.xcassets */,
+				713022D420E18A7700C45E64 /* LaunchScreen.storyboard */,
+				713022D720E18A7700C45E64 /* Info.plist */,
+				713022CF20E18A7500C45E64 /* DeviceTaker.xcdatamodeld */,
+			);
+			path = DeviceTaker;
+			sourceTree = "<group>";
+		};
+		713022DF20E18A7700C45E64 /* DeviceTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				713022E020E18A7700C45E64 /* DeviceTakerTests.swift */,
+				713022E220E18A7700C45E64 /* Info.plist */,
+			);
+			path = DeviceTakerTests;
+			sourceTree = "<group>";
+		};
+		713022EA20E18A7700C45E64 /* DeviceTakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				713022EB20E18A7700C45E64 /* DeviceTakerUITests.swift */,
+				713022ED20E18A7700C45E64 /* Info.plist */,
+			);
+			path = DeviceTakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713022C420E18A7500C45E64 /* DeviceTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713022F020E18A7700C45E64 /* Build configuration list for PBXNativeTarget "DeviceTaker" */;
+			buildPhases = (
+				713022C120E18A7500C45E64 /* Sources */,
+				713022C220E18A7500C45E64 /* Frameworks */,
+				713022C320E18A7500C45E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceTaker;
+			productName = DeviceTaker;
+			productReference = 713022C520E18A7500C45E64 /* DeviceTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		713022DB20E18A7700C45E64 /* DeviceTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713022F320E18A7700C45E64 /* Build configuration list for PBXNativeTarget "DeviceTakerTests" */;
+			buildPhases = (
+				713022D820E18A7700C45E64 /* Sources */,
+				713022D920E18A7700C45E64 /* Frameworks */,
+				713022DA20E18A7700C45E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713022DE20E18A7700C45E64 /* PBXTargetDependency */,
+			);
+			name = DeviceTakerTests;
+			productName = DeviceTakerTests;
+			productReference = 713022DC20E18A7700C45E64 /* DeviceTakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		713022E620E18A7700C45E64 /* DeviceTakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713022F620E18A7700C45E64 /* Build configuration list for PBXNativeTarget "DeviceTakerUITests" */;
+			buildPhases = (
+				713022E320E18A7700C45E64 /* Sources */,
+				713022E420E18A7700C45E64 /* Frameworks */,
+				713022E520E18A7700C45E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713022E920E18A7700C45E64 /* PBXTargetDependency */,
+			);
+			name = DeviceTakerUITests;
+			productName = DeviceTakerUITests;
+			productReference = 713022E720E18A7700C45E64 /* DeviceTakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713022BD20E18A7500C45E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Stefan V. de Moraes";
+				TargetAttributes = {
+					713022C420E18A7500C45E64 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					713022DB20E18A7700C45E64 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 713022C420E18A7500C45E64;
+					};
+					713022E620E18A7700C45E64 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 713022C420E18A7500C45E64;
+					};
+				};
+			};
+			buildConfigurationList = 713022C020E18A7500C45E64 /* Build configuration list for PBXProject "DeviceTaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713022BC20E18A7500C45E64;
+			productRefGroup = 713022C620E18A7500C45E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713022C420E18A7500C45E64 /* DeviceTaker */,
+				713022DB20E18A7700C45E64 /* DeviceTakerTests */,
+				713022E620E18A7700C45E64 /* DeviceTakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713022C320E18A7500C45E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713022D620E18A7700C45E64 /* LaunchScreen.storyboard in Resources */,
+				713022D320E18A7700C45E64 /* Assets.xcassets in Resources */,
+				713022CE20E18A7500C45E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713022DA20E18A7700C45E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713022E520E18A7700C45E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713022C120E18A7500C45E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713022CB20E18A7500C45E64 /* ViewController.swift in Sources */,
+				713022C920E18A7500C45E64 /* AppDelegate.swift in Sources */,
+				713022D120E18A7500C45E64 /* DeviceTaker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713022D820E18A7700C45E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713022E120E18A7700C45E64 /* DeviceTakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713022E320E18A7700C45E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713022EC20E18A7700C45E64 /* DeviceTakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		713022DE20E18A7700C45E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713022C420E18A7500C45E64 /* DeviceTaker */;
+			targetProxy = 713022DD20E18A7700C45E64 /* PBXContainerItemProxy */;
+		};
+		713022E920E18A7700C45E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713022C420E18A7500C45E64 /* DeviceTaker */;
+			targetProxy = 713022E820E18A7700C45E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		713022CC20E18A7500C45E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713022CD20E18A7500C45E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		713022D420E18A7700C45E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713022D520E18A7700C45E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713022EE20E18A7700C45E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		713022EF20E18A7700C45E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713022F120E18A7700C45E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUPVNHUL72;
+				INFOPLIST_FILE = DeviceTaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.DeviceTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		713022F220E18A7700C45E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUPVNHUL72;
+				INFOPLIST_FILE = DeviceTaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.DeviceTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		713022F420E18A7700C45E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUPVNHUL72;
+				INFOPLIST_FILE = DeviceTakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.DeviceTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeviceTaker.app/DeviceTaker";
+			};
+			name = Debug;
+		};
+		713022F520E18A7700C45E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUPVNHUL72;
+				INFOPLIST_FILE = DeviceTakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.DeviceTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeviceTaker.app/DeviceTaker";
+			};
+			name = Release;
+		};
+		713022F720E18A7700C45E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUPVNHUL72;
+				INFOPLIST_FILE = DeviceTakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.DeviceTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeviceTaker;
+			};
+			name = Debug;
+		};
+		713022F820E18A7700C45E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUPVNHUL72;
+				INFOPLIST_FILE = DeviceTakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.DeviceTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeviceTaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713022C020E18A7500C45E64 /* Build configuration list for PBXProject "DeviceTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713022EE20E18A7700C45E64 /* Debug */,
+				713022EF20E18A7700C45E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713022F020E18A7700C45E64 /* Build configuration list for PBXNativeTarget "DeviceTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713022F120E18A7700C45E64 /* Debug */,
+				713022F220E18A7700C45E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713022F320E18A7700C45E64 /* Build configuration list for PBXNativeTarget "DeviceTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713022F420E18A7700C45E64 /* Debug */,
+				713022F520E18A7700C45E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713022F620E18A7700C45E64 /* Build configuration list for PBXNativeTarget "DeviceTakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713022F720E18A7700C45E64 /* Debug */,
+				713022F820E18A7700C45E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		713022CF20E18A7500C45E64 /* DeviceTaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				713022D020E18A7500C45E64 /* DeviceTaker.xcdatamodel */,
+			);
+			currentVersion = 713022D020E18A7500C45E64 /* DeviceTaker.xcdatamodel */;
+			path = DeviceTaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 713022BD20E18A7500C45E64 /* Project object */;
+}
