@@ -1,7 +1,7 @@
 # DeviceTaker
 Vacation's Nano Challenge
 
-#PT
+# PT
 
 Olá a todos!
 
@@ -22,7 +22,7 @@ TableView para Teste Iniciada;
 
 -- -- -- -- -- --
 
-#ENG
+# ENG
 
 Hello!
 
