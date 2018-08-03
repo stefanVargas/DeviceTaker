@@ -8,10 +8,22 @@
 
 import UIKit
 import AVFoundation
+import Firebase
+import FirebaseDatabase
 
 class ScannerViewController: UIViewController {
+    @IBAction func reload(_ sender: UIButton) {
+        self.reloadInputViews()
+    }
     @IBOutlet var msgQRLabel:UILabel!
     @IBOutlet var topbar: UIView!
+    
+    var profTableView = ProfileTableView()
+    
+     var myEquip = Equipamentos()
+    
+    var refHandle: DatabaseHandle?
+    let ref = Database.database().reference()
     
     var captureSession = AVCaptureSession()
     
@@ -31,6 +43,9 @@ class ScannerViewController: UIViewController {
                                       AVMetadataObject.ObjectType.dataMatrix,
                                       AVMetadataObject.ObjectType.interleaved2of5,
                                       AVMetadataObject.ObjectType.qr]
+    override func viewWillAppear(_ animated: Bool) {
+         self.reloadInputViews()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -116,8 +131,39 @@ class ScannerViewController: UIViewController {
         let confirmAction = UIAlertAction(title: "Confirmar", style: UIAlertActionStyle.default, handler: { (action) -> Void in
             
             if URL(string: decodedURL) != nil {
-                self.performSegue(withIdentifier: "stats_segue", sender: self)
+                //var codeChecker = true
+                
+                self.refHandle = self.ref.child("Equipamentos").observe(.value, with: { (snapshot) in
+                    
+                    if let equipDictionary = snapshot.value as? [String : Any]? {
+                        
+                        for (key, array) in equipDictionary! {
+                            if key == decodedURL {
+                                guard let attributesDictionary = array as? [String :  String] else { continue }
+                                
+                                self.myEquip.barcode = attributesDictionary["Barcode"]
+                                self.myEquip.modelo = attributesDictionary["Modelo"]
+                                self.myEquip.status = attributesDictionary["Status"]
+                                
+                                self.performSegue(withIdentifier: "stats_segue", sender: self)
+                                return
+                                
+                                
+                            }
+                        }
 
+                        self.myEquip.barcode = "000"
+                        self.myEquip.modelo = "Código não"
+                        self.myEquip.status = "cadastrado!"
+                        self.performSegue(withIdentifier: "stats_segue", sender: self)
+                        
+                    }
+                    
+                })
+                
+             
+                
+            
             }
         })
         
@@ -127,6 +173,14 @@ class ScannerViewController: UIViewController {
         alertPrompt.addAction(cancelAction)
         
         present(alertPrompt, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        let destinationVC = segue.destination as! ItemCheckViewController
+        destinationVC.checkMyEquip = self.myEquip
+        
     }
     
 }  // END ScannerViewController

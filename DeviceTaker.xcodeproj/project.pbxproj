@@ -11,6 +11,13 @@
 		68532A2F04CAB71CD567411F /* Pods_DeviceTakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB498AA805B50CE54800E63 /* Pods_DeviceTakerTests.framework */; };
 		70F64243501AF635F9367F1E /* Pods_DeviceTakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F41BC9C3676D653E529C5E7 /* Pods_DeviceTakerUITests.framework */; };
 		710388E920F2561400E43183 /* ProfileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710388E820F2561400E43183 /* ProfileTableView.swift */; };
+		71100C6720FF149100AB72B0 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C6620FF149100AB72B0 /* TabViewController.swift */; };
+		71100C6921092CF400AB72B0 /* Equipamentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C6821092CF400AB72B0 /* Equipamentos.swift */; };
+		71100C6B210B788800AB72B0 /* EquipamentosTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C6A210B788800AB72B0 /* EquipamentosTableView.swift */; };
+		71100C6D210B8A1700AB72B0 /* EquipamentosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C6C210B8A1700AB72B0 /* EquipamentosTableViewCell.swift */; };
+		71100C6F210FB00500AB72B0 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C6E210FB00500AB72B0 /* ProfileTableViewCell.swift */; };
+		71100C73210FC0F000AB72B0 /* ItemCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C72210FC0F000AB72B0 /* ItemCheckViewController.swift */; };
+		71100C75210FDE0400AB72B0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71100C74210FDE0400AB72B0 /* SplashViewController.swift */; };
 		713022C920E18A7500C45E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022C820E18A7500C45E64 /* AppDelegate.swift */; };
 		713022CB20E18A7500C45E64 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022CA20E18A7500C45E64 /* ScannerViewController.swift */; };
 		713022CE20E18A7500C45E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713022CC20E18A7500C45E64 /* Main.storyboard */; };
@@ -20,6 +27,8 @@
 		713022E120E18A7700C45E64 /* DeviceTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022E020E18A7700C45E64 /* DeviceTakerTests.swift */; };
 		713022EC20E18A7700C45E64 /* DeviceTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713022EB20E18A7700C45E64 /* DeviceTakerUITests.swift */; };
 		713022FA20EFE09200C45E64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 713022F920EFE09200C45E64 /* GoogleService-Info.plist */; };
+		718C84552112434C0042E6EA /* AcademyEquipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C84542112434C0042E6EA /* AcademyEquipsViewController.swift */; };
+		718C84572113D3770042E6EA /* MyEquipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C84562113D3770042E6EA /* MyEquipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,13 @@
 		5EDF943D6599E2264762BB44 /* Pods-DeviceTakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceTakerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceTakerUITests/Pods-DeviceTakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BB498AA805B50CE54800E63 /* Pods_DeviceTakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceTakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710388E820F2561400E43183 /* ProfileTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableView.swift; sourceTree = "<group>"; };
+		71100C6620FF149100AB72B0 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		71100C6821092CF400AB72B0 /* Equipamentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipamentos.swift; sourceTree = "<group>"; };
+		71100C6A210B788800AB72B0 /* EquipamentosTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipamentosTableView.swift; sourceTree = "<group>"; };
+		71100C6C210B8A1700AB72B0 /* EquipamentosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipamentosTableViewCell.swift; sourceTree = "<group>"; };
+		71100C6E210FB00500AB72B0 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		71100C72210FC0F000AB72B0 /* ItemCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCheckViewController.swift; sourceTree = "<group>"; };
+		71100C74210FDE0400AB72B0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		713022C520E18A7500C45E64 /* DeviceTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713022C820E18A7500C45E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713022CA20E18A7500C45E64 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +77,8 @@
 		713022EB20E18A7700C45E64 /* DeviceTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTakerUITests.swift; sourceTree = "<group>"; };
 		713022ED20E18A7700C45E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		713022F920EFE09200C45E64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		718C84542112434C0042E6EA /* AcademyEquipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyEquipsViewController.swift; sourceTree = "<group>"; };
+		718C84562113D3770042E6EA /* MyEquipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEquipsViewController.swift; sourceTree = "<group>"; };
 		87F6D811697DF2259FF099DF /* Pods-DeviceTaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceTaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceTaker/Pods-DeviceTaker.debug.xcconfig"; sourceTree = "<group>"; };
 		9547B030EFBE1C45FE477342 /* Pods_DeviceTaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceTaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5153EAA027E249B5AEBC0C9 /* Pods-DeviceTakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceTakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeviceTakerTests/Pods-DeviceTakerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +147,15 @@
 				713022D720E18A7700C45E64 /* Info.plist */,
 				713022CF20E18A7500C45E64 /* DeviceTaker.xcdatamodeld */,
 				710388E820F2561400E43183 /* ProfileTableView.swift */,
+				71100C6A210B788800AB72B0 /* EquipamentosTableView.swift */,
+				71100C6620FF149100AB72B0 /* TabViewController.swift */,
+				71100C6821092CF400AB72B0 /* Equipamentos.swift */,
+				71100C6C210B8A1700AB72B0 /* EquipamentosTableViewCell.swift */,
+				71100C6E210FB00500AB72B0 /* ProfileTableViewCell.swift */,
+				71100C72210FC0F000AB72B0 /* ItemCheckViewController.swift */,
+				71100C74210FDE0400AB72B0 /* SplashViewController.swift */,
+				718C84542112434C0042E6EA /* AcademyEquipsViewController.swift */,
+				718C84562113D3770042E6EA /* MyEquipsViewController.swift */,
 			);
 			path = DeviceTaker;
 			sourceTree = "<group>";
@@ -389,9 +416,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71100C6D210B8A1700AB72B0 /* EquipamentosTableViewCell.swift in Sources */,
 				713022CB20E18A7500C45E64 /* ScannerViewController.swift in Sources */,
 				710388E920F2561400E43183 /* ProfileTableView.swift in Sources */,
+				71100C75210FDE0400AB72B0 /* SplashViewController.swift in Sources */,
+				71100C6F210FB00500AB72B0 /* ProfileTableViewCell.swift in Sources */,
+				71100C6B210B788800AB72B0 /* EquipamentosTableView.swift in Sources */,
 				713022C920E18A7500C45E64 /* AppDelegate.swift in Sources */,
+				71100C6720FF149100AB72B0 /* TabViewController.swift in Sources */,
+				71100C73210FC0F000AB72B0 /* ItemCheckViewController.swift in Sources */,
+				71100C6921092CF400AB72B0 /* Equipamentos.swift in Sources */,
+				718C84572113D3770042E6EA /* MyEquipsViewController.swift in Sources */,
+				718C84552112434C0042E6EA /* AcademyEquipsViewController.swift in Sources */,
 				713022D120E18A7500C45E64 /* DeviceTaker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
